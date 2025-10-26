@@ -1,4 +1,4 @@
-package com.nexusai.SchoolAppSpring;
+package com.nexusai.SchoolAppSpring.model;
 
 public class Student {
 

@@ -36,23 +36,19 @@ public class SecurityConfig {
 
     @Bean
     public UserDetailsService userDetailsService(){
-
         UserDetails user1 = User
                 .withDefaultPasswordEncoder()
                 .username("pugal")
                 .password("p@123")
                 .roles("USER")
                 .build();
-
         UserDetails user2 = User
                 .withDefaultPasswordEncoder()
                 .username("sarvesh")
                 .password("s@123")
                 .roles("ADMIN")
                 .build();
-
         return new InMemoryUserDetailsManager(user1,user2);
-
     }
 
 }

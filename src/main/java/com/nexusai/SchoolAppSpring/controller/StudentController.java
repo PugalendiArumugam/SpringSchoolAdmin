@@ -1,5 +1,6 @@
-package com.nexusai.SchoolAppSpring;
+package com.nexusai.SchoolAppSpring.controller;
 
+import com.nexusai.SchoolAppSpring.model.Student;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.security.web.csrf.CsrfToken;
 import org.springframework.web.bind.annotation.GetMapping;
